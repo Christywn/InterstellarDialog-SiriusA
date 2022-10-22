@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap">
+        <!-- <img src="./img/Artboard 1 copyP2.png" alt=""> -->
+        <div class="son" onclick="back()"> < back </div>
+        <div class="son1" onclick="back1()">  enter > </div>
+    </div>
+</body>
+<script>
+    function back(){
+        window.location.href = './1.html';
+    }
+    function back1(){
+        window.location.href = './3.html';
+    }
+</script>
+</html>
+<style>
+        * {
+        margin: 0;
+        padding: 0;
+        /* overflow: hidden; */
+    }
+
+    .wrap {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        background-image: url(./img/Artboard\ 1\ copyP2.png);
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+    }
+    .son{
+        color: aliceblue;
+        position: absolute;
+        left: 50px;
+        bottom: 50px;
+    }
+    .son1{
+        color: aliceblue;
+        position: absolute;
+        right: 50px;
+        bottom: 50px;
+    }
+</style>
